@@ -9,6 +9,7 @@
     box-sizing: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Header selectors */
 header {
     padding: 20px 35px;
     background-image: url("../Images/IMG_20200612_143523 copy.jpg");
@@ -16,6 +17,7 @@ header {
     background-attachment: fixed;
     background-position: bottom;
 }
+/* Navigation bar selectors */
 header nav {
     margin: 7px 0;
 }
@@ -51,6 +53,7 @@ header h2 {
     display: flex;
     justify-content: center;
 }
+/* Hero/jumbotron Selectors */
 .hero {
     background-image: url("../Images/IMG_20200612_143523 copy.jpg");
     background-size: cover;
@@ -82,6 +85,7 @@ section h2 {
 body {
     background-color: beige
 }
+/* About Me selectors */
 .about-me {
     margin: 20px;
     display: inline-block;
@@ -112,6 +116,7 @@ body {
 .about-me section {
     text-align: center
 }
+/* Image selectors */
 .projects-img img {
     width: 65vw;
     /* padding: 5px; */
@@ -144,6 +149,7 @@ body {
 h2.section-title{
     border-bottom: 4px solid black;
 }
+/* Contact form selectors */
 .contact-form input, .contact-form textarea {
     border: 1px solid var(--secondary-color);
     display: block;
