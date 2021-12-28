@@ -8,6 +8,6 @@ This is an initial portfolio that includes:
 4. A contact form
 
 ## Final Webpage Screenshot:
-![Chris Hailey Portfolio](./assets/Images/webpage screenshot.png)
+![alt text](./assets/Images/webpage screenshot.png)
 
 URL to Portfolio: https://chrisphailey.github.io/portfolio/
