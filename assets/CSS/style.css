@@ -137,8 +137,12 @@ body {
 }
 
 
-h2.section-title{
+.section-title{
     border-bottom: 4px solid black;
+    font-family: 'Abril Fatface', cursive;
+}
+.img-title{
+    font-family: 'Abril Fatface', cursive;
 }
 /* Contact form selectors */
 .contact-form input, .contact-form textarea {
