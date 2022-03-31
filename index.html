@@ -8,14 +8,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Neonderthaw&family=Open+Sans:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">;
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="row">
+            <!-- <div class="about-img mb-0">
+                <img class="rounded-circle h-25" src="assets/Images/CHRIS HAILEY PHOTO copy.jpg" alt="chris hailey head-shot">
+            </div> -->
+        </div>
+        <div class="row">
+            <div>
+                <h1>Chris Hailey</h1>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Web Developer</h2>
+        </div>
+    </div>
     <header>
-        <h1>Chris Hailey</h1>
-        <h2>Web Developer</h2>
     <nav>
         <ul>
             <li>
@@ -42,15 +55,13 @@
         <div>
             <h2 class="section-title">About Me</h2>
         </div>
-        <div class=about-img>
-            <img src="assets/Images/CHRIS HAILEY PHOTO copy.jpg" alt="chris hailey head-shot">
-        </div>
+        <br>
         <div>
             <p>
                 I'm Chris Hailey.  A web developer from Memphis, Tennessee with a passion for connecting the community.  My first loves were live music and the outdoors... both for their unique ability to make you feel connected to something greater.  
                 They can bring a community together.  This is what I aim to accomplish as a web developer.  Through clear cut, visually pleasing and engaging design, we can build a platform that leaves people feeling connected to something greater.
                 <br>
-                THIS has been my pursuit for the last three years of my life.  I've been travelling the world to learn, listen and connect with those that are different from me.
+                THIS has been my pursuit for the last three years of my life.  I've been traveling the world to learn, listen and connect with those that are different from me.
                 Now I aim to bring these communities together through innovative web design.
             </p>
         </div>
@@ -65,23 +76,31 @@
                 <h2 class="img-title">Run Buddy</h2>
                 <div class="projects-img hoverable">
                     <a id=run-buddy href="https://chrisphailey.github.io/run-buddy1/">
-                        <img class="img-class"src="./assets/Images/hero-bg copy.jpeg" alt="Run Buddy">
+                        <img class="img-thumbnail img-fluid"src="./assets/Images/hero-bg copy.jpeg" alt="Run Buddy">
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 h-25">
+                <h2 class="img-title">Horiseon</h2>
+                <div class="projects-img hoverable">
+                    <a href="https://chrisphailey.github.io/horiseon-challenge/">
+                        <img class="img-thumbnail img-fluid" src="./assets/Images/digital-marketing-meeting copy.jpg" alt="Horiseon">
                     </a>
                 </div>
             </div>
             <div class="col-6">
-                <h2 class="img-title">Horiseon</h2>
-                <div class="projects-img hoverable">
-                    <a href="https://chrisphailey.github.io/horiseon-challenge/">
-                        <img class="img-class" src="./assets/Images/digital-marketing-meeting copy.jpg" alt="Horiseon">
-                    </a>
-                </div>
-            </div>
-            <div class="col-12">
                 <h2 class="img-title">E-VENT</h2>
                 <div class="projects-img hoverable">
                     <a href="https://snew430.github.io/Cityscope/">
-                        <img src="https://user-images.githubusercontent.com/93355113/152455118-94986549-ea31-47fc-a5bf-c8b6230bdc9e.png" alt="E-VENT" class="img-class">
+                        <img src="https://user-images.githubusercontent.com/93355113/152455118-94986549-ea31-47fc-a5bf-c8b6230bdc9e.png" alt="E-VENT" class="img-thumbnail img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-6">
+                <h2 class="img-title">Tenantive.ly</h2>
+                <div class="projects-img hoverable">
+                    <a href="glacial-temple-16968.herokuapp.com/">
+                        <img src="./assets/Images/tenantively-thumbnail.png" alt="tenantively-thumbnail" class="img-thumbnail img-fluid">
                     </a>
                 </div>
             </div>
@@ -99,7 +118,11 @@
             <input type="text" id="email" placeholder="your@email.com" />
             <label for="contact-message">Message</label>
             <textarea id="contact-message" placeholder="Message"></textarea>
-            <button type="submit">Submit</button>
+            <div class="d-flex justify-content-center mt-3">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right"></i>
+                  </button>
+            </div>
         </form>
         </div>
     </section>
