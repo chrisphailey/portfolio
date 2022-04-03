@@ -1,23 +1,11 @@
-:root {
-  --primary-color: #e9967a;
-  --secondary-color: #a52a2a;
-}
-
 * {
-  /* margin: 0;
-    padding: 0; */
-  box-sizing: 0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(17, 16, 16);
+  color: white;
 }
 /* Header selectors */
-header {
-  padding: 20px 35px;
-  background-image: url("../Images/IMG_20200612_143523 copy.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: bottom;
-}
+
 /* Navigation bar selectors */
 header nav {
   margin: 7px 0;
@@ -31,15 +19,12 @@ header nav ul {
 }
 header nav ul a {
   font-family: fantasy;
-  color: black;
   padding: 10px 15px;
   font-size: 2.5vw;
   text-decoration: none;
   font-weight: bolder;
 }
 header nav ul a:hover {
-  background: #6495ed;
-  color: white;
   border-radius: 15px;
   text-shadow: none;
 }
@@ -56,9 +41,6 @@ header h2 {
 }
 /* Hero/jumbotron Selectors */
 .hero {
-  background-image: url("../Images/IMG_20200612_143523 copy.jpg");
-  background-size: cover;
-  background-attachment: fixed;
   display: flex;
   justify-content: center;
   padding: 65px;
@@ -68,24 +50,10 @@ header h2 {
 .hero-content {
   font-size: 20px;
   font-style: italic;
-  color: rgb(204, 30, 30);
   font-weight: bold;
-  border: rgb(204, 30, 30);
   border-width: 4px;
 }
-.hero-content p {
-  background: beige;
-}
-section {
-  padding: 60px;
-}
-section h2 {
-  text-align: center;
-  font-size: 42px;
-}
-body {
-  background-color: beige;
-}
+
 /* About Me selectors */
 .about-me {
   margin: 20px;
@@ -95,43 +63,28 @@ body {
   display: flex;
   justify-content: center;
 }
-.about-me img {
-  width: 32%;
-  border-radius: 12px;
-  display: flex;
-  line-height: 1.5;
-  clear: left;
-}
+
 .about-me p {
   display: block;
   flex-wrap: wrap;
   line-height: 1.5;
 }
-/* #about-me-img {
-    display: inline-block;
-    margin: 0 auto;
-}
-#about-me-content {
-    display: inline-block
-} */
+
 .about-me section {
   text-align: center;
 }
 /* Image selectors */
-.projects-img img {
-  width: 100%;
-  border-radius: 15px;
-  border: 2px solid orange;
-}
-#run-buddy img {
-  width: 100%;
-  height: 35vh;
-}
+
 .projects-img {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
+}
+
+.img-thumbnail {
+  max-width: 30vw;
+  height: 30vh;
 }
 .img-class {
   align-items: center;
@@ -140,26 +93,24 @@ body {
 .section-title {
   border-bottom: 4px solid black;
   font-family: "Abril Fatface", cursive;
+  text-align: center;
 }
 .img-title {
   font-family: "Abril Fatface", cursive;
+  text-align: center;
 }
 /* Contact form selectors */
 .contact-form input,
 .contact-form textarea {
-  border: 1px solid var(--secondary-color);
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: var(--secondary-color);
   width: 50%;
   margin: auto;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
 }
 .contact-form input:focus,
 .contact-form textarea:focus {
-  background-color: rgba(255, 255, 255, 1);
   outline: none;
 }
 .contact-form label {
@@ -169,16 +120,18 @@ body {
 .contact-form button {
   width: 100%;
   border: none;
-  background: var(--primary-color);
-  color: var(--secondary-color);
   text-align: center;
   padding: 15px 0;
   font-size: 16px;
   border-radius: 10px;
 }
 .contact-form button:hover {
-  color: var(--primary-color);
   background: black;
+}
+
+/* tabs */
+#tabs-swipe-demo {
+  swipeable: true;
 }
 /* media query for mobile phones and smaller */
 @media screen and (max-width: 575px) {

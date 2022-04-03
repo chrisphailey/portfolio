@@ -1,0 +1,1 @@
+$('#tabs-swipe-demo').tabs({ 'swipeable': true})
